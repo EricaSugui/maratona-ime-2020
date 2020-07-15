@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang=”pt-br”>
+  <head>
+    <title>Cálculo de Ingresso para a XXV Maratona de Programação de 2020</title>
+    <meta charset=”UTF-8”></meta>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="manifest" href="/manifest.json">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-18S8C9CEW4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-18S8C9CEW4');
+    </script>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#490A3D">
+      <a class="navbar-brand" href="./index.html"> Calculadora de Ingresso </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://esuguimo.com.br">Blog da Erica <span class="sr-only">(conheça meu site)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/EricaSugui">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/ericasuguimoto/">LinkedIn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Voltar para o jogo</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          Desenvolvedora Javascript, aluna de EC na UNIVESP.
+        </span>
+      </div>
+    </nav>
+
+    <div class="container-fluid col-10">
+      
+      <header class="text-center">
+        <h1 class="title">Calculadora de Ingresso</h1>
+      </header>
+        <h2 class="text-center">XXV Maratona de Programação de 2020</h2><br>
+      <div class="sobre">
+        <div class="instructions btn sobreButton" style="background-color: #E97F02; color: white;">Sobre esse app</div>
+        <p class="">App simples em Javascript para calcular elegibilidade de candidatos à maratona.<br>
+            Leia  mais sobre a Maratona em <a href="http://maratona.sbc.org.br/sobre20.html">XXV Maratona de Programação</a></p>
+      </div>
+
+      <div class="sobre">
+        <div class="instructions btn sobreButton" style="background-color: #8A9B0F; color: white">Código</div>
+        <p class="">Código disponível no GitHub, em <a href="https://github.com/EricaSugui/maratona-ime-2020">https://github.com/EricaSugui/maratona-ime-2020</a>.<br>
+            Esse jogo foi construído usando o fluxo de Deploy Contínuo: escrito em localhost, fazendo push para
+        o GitHub, e push para o deploy "produção" no meu servidor HostGator.<br>
+        Mais detalhes sobre bibliotecas e linguagens no arquivo README.md do respositório.
+      </p>
+      </div>
+      <div class="sobre">
+        <a href="./index.html">
+            <div class="instructions btn voltarButton" style="background-color: #BD1550; color: white;">Voltar para o Jogo</div>
+          </a>
+      </div>
+
+    </div>
+
+    <div class="footer text-center container-fluid">
+      <p>Porque a vida tem que ser divertida.</p>
+      <p>2020 feito por <a href="https://esuguimo.com.br">ericabot</a>.</p>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./game.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
