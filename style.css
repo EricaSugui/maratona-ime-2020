@@ -93,7 +93,7 @@
     }
   
     #computer-guess {
-      font-size: 35px;
+      font-size: 28px;
       font-weight: 700;
       color: #490A3D;
     }
@@ -105,7 +105,7 @@
     .guess input {
       /* height: 55px; */
       width: 110px;
-      font-size: 35px;
+      font-size: 28px;
       text-align: center;
       color: #490A3D;
       font-weight: 700;
