@@ -18,6 +18,12 @@ function compareGuesses(human, computer, secret) {
     else if (human <= 1920) {
         alert("Você está dizendo que tem mais de 100 anos, isso está certo?")
     }
+    else if (human >= 2021) {
+        alert("Verifique seus dados e tente novamente, ou você nem nasceu ainda.")
+    }
+    else if (human > 2014 && human <= 2020) {
+        alert("Verifique seus dados e tente novamente, ou você é muito novo para estar na faculdade.")
+    }
     else if (computer <= 1920) {
         alert("Você está dizendo que começou um curso superior a mais de 100 anos, isso está certo?")
     }
